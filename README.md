@@ -1,5 +1,5 @@
 💼 Data Analyst Job Market Analysis Using SQL
-📊 Introduction
+# 📊Introduction
 Curious about what it takes to land a high-paying data analyst role? This project dives deep into the data analyst job market to uncover:
 
 💰 Top-paying remote jobs
@@ -10,7 +10,7 @@ Curious about what it takes to land a high-paying data analyst role? This projec
 
 Built entirely with SQL, this project is your gateway to understanding how skills and salaries align in today’s data-driven world.
 
-🗃️ Data Background
+# 🗃️Data Background
 The data was sourced as part of an SQL course project, featuring comprehensive job posting datasets including:
 
 Job titles and salary information
@@ -23,7 +23,7 @@ Skills required for each position
 
 The dataset was loaded and cleaned using PostgreSQL and CSV files.
 
-🎯 Project Goals
+# 🎯Project Goals
 The analysis aimed to answer 5 key questions:
 
 What are the top-paying data analyst jobs?
@@ -36,7 +36,7 @@ Which skills are associated with the highest salaries?
 
 What are the most optimal skills to learn (high demand + high salary)?
 
-🛠️ Tools & Technologies Used
+# 🛠️Tools & Technologies Used
 PostgreSQL – For managing and querying the database
 
 SQL – Core querying language for all analysis
@@ -45,8 +45,8 @@ Visual Studio Code – SQL editor and development environment
 
 Git & GitHub – Version control and collaboration
 
-🧪 The Analysis
-1️⃣ Top-Paying Data Analyst Jobs
+# 🧪The Analysis
+## 1️⃣ Top-Paying Data Analyst Jobs
 Script: 1_top_paying_jobs.sql
 Finds the top 10 remote data analyst jobs based on salary.
 
@@ -60,7 +60,7 @@ SELECT job_id, job_title, salary_year_avg, company_name
 FROM job_postings_fact
 ...
 LIMIT 10;
-2️⃣ Skills for Top-Paying Jobs
+## 2️⃣ Skills for Top-Paying Jobs
 Script: 2_top_paying_job_skill.sql
 Connects top-paying jobs to their required skills.
 
@@ -72,7 +72,7 @@ Python, Tableau, and Azure are heavily favored
 
 Tools like Pandas, Snowflake, and GitLab are common
 
-3️⃣ Most In-Demand Skills
+## 3️⃣ Most In-Demand Skills
 Script: 3_top_demanded_skill.sql
 Identifies the most commonly requested skills in job listings.
 
@@ -85,7 +85,7 @@ Power BI	2609
 
 Insight: Strong foundational skills like SQL and Excel remain essential across the board.
 
-4️⃣ Top Paying Skills
+## 4️⃣ Top Paying Skills
 Script: 4_toppaying_skill.sql
 Ranks skills by average salary across roles.
 
@@ -100,7 +100,7 @@ Terraform	180,000
 
 Insight: Specialized tools in AI/ML, MLOps, and DevOps command premium salaries.
 
-5️⃣ Most Optimal Skills to Learn
+## 5️⃣ Most Optimal Skills to Learn
 Script: 5_optimal_skill.sql
 Combines demand and salary data to rank the best skills to learn.
 
@@ -113,7 +113,7 @@ Java	17	106,906
 
 Conclusion: Learn skills that are both highly demanded and well-compensated, like Go, Snowflake, and Cloud platforms (AWS, Azure).
 
-📘 Database Setup
+# 📘 Database Setup
 Step 1: Create Database
 Script: 1_create_database.sql
 
@@ -133,7 +133,7 @@ job_postings_fact
 
 skills_job_dim
 
-🎓 What I Learned
+# 🎓 What I Learned
 🧩 Advanced SQL Techniques: CTEs, JOINS, subqueries, and aggregations
 
 📊 Data Interpretation: Transforming raw data into strategic job market insights
@@ -142,7 +142,7 @@ skills_job_dim
 
 🚀 End-to-End Workflow: From database creation to insight generation
 
-✅ Conclusion
+# ✅ Conclusion
 This project not only strengthened my SQL expertise, but also provided practical guidance for anyone aspiring to grow in the data analytics field.
 
 🔎 By understanding which skills are in-demand and well-paid, you can align your learning with market reality
